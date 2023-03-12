@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Jamal Hamilton-->
+<!--Theese nest two lines are calling both the css and java files-->
+<script src ="LoginFunct.js"></script>
+<link href = "Main CSS.css" rel ="stylesheet" type = "text/css" />
+    <head>
+    <!--This is giving the tab name a title-->
+    <title>Missile Launch Login</title>
+    
+</head>
+<body> 
+    <h1>
+        <!--This centers the welcome to login-->
+         <center>
+             WELCOME TO THE UAT LAUNCH LOGIN!
+         </center><br>
+        
+    </h1>
+    <br>
+    <!--this adds an imagine to the html file-->
+    <img src="LoginImage.png">
+    <p id = "Login" class = "loginID">Please Login!</p>
+    <br>
+    <!--these next lines calls all the functions that are in the java script file and allows the user to input the necessary info-->
+    <form id = "LoginSubmit" onsubmit="return false" >
+            First Name <input type="text" id = "FirstName" /> <br>
+            Last Name <input type="text" id = "LastName" /> <br>
+            Agent ID Number <input type="number" id ="AgentNum" /> <br>
+            <input type="submit" onclick= "CheckLogin();"/>
+    </form>
+</body>
+</html>

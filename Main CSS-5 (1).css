@@ -1,0 +1,8 @@
+/*Jamal Hamilton*/
+body {
+/*This adds the uat logo to the background of the program*/
+    background-image: url("UAT-Logo-new.webp");
+    background-repeat:no-repeat;
+    background-size: 100% 200%;
+
+}
